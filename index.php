@@ -97,7 +97,7 @@
 
     "Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?" => 
     [
-      'titleSize' => 'h3', 
+      'titleSize' => 'h2', 
       'paragraphs' => [
 
         'paragraph-1' => 
@@ -112,7 +112,7 @@
 
     "Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?" => 
     [
-      'titleSize' => 'h3', 
+      'titleSize' => 'h2', 
       'paragraphs' => [
 
         'paragraph-1' => 
@@ -138,12 +138,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Domande frequenti - Privacy e termini</title>
-  
+
   <link rel="stylesheet" href="style.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
   <header></header>
