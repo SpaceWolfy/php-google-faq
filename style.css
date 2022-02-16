@@ -44,6 +44,10 @@ ol {
   line-height: 24px;
 }
 
+.space-ol {
+  margin-left: 30px;
+}
+
 li {
   padding: 10px 15px;
 }
