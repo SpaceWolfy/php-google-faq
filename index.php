@@ -138,6 +138,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Domande frequenti - Privacy e termini</title>
+  <script src="https://kit.fontawesome.com/da9db4083e.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="style.css" />
 
@@ -150,7 +151,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header></header>
+  <header>
+    <div class="d-flex">
+      <div class="left-side">
+        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
+        <span>Privacy e termini</span>
+      </div>
+      <div class='right-side'>
+        <div class="icons">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="img-bg"></div>
+      </div>
+    </div>
+
+    <div class="bottom-hsection">
+      <nav>
+        <span>Introduzione</span>
+        <span>Norme sulla privacy</span>
+        <span>Termini di servizio</span>
+        <span>Tecnologie</span>
+        <span class="pinged">Domande frequenti</span>
+      </nav>
+    </div>
+  </header>
   <main>
     <?php 
       foreach($db as $faq => $answer) {

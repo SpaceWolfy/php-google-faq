@@ -12,8 +12,9 @@ body {
 /* General tags */
 
 main {
-  width: 950px;
+  width: 960px;
   margin: 0 auto;
+  margin-top: 125px;
 }
 
 h2,
@@ -51,3 +52,108 @@ a {
   color: #3367d6;
 }
 /* ------------ */
+
+/* Header */
+header {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.d-flex {
+  padding: 14px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+/* Left side */
+.left-side img {
+  width: 74px;
+}
+
+.left-side span {
+  padding-left: 4px;
+  font-size: 600;
+  font-size: 22px;
+  color: #53575c;
+  margin-top: -3px;
+}
+
+.left-side img,
+span,
+.right-side .img-bg,
+.icons {
+  cursor: pointer;
+}
+
+/* --------- */
+
+/* Right side */
+.right-side .fa-solid {
+  font-size: 18px;
+  margin: 0 -1px;
+  color: #5a5d61;
+  line-height: 40px;
+}
+
+.right-side .img-bg {
+  background-image: url("https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/SE000000000684/media/10/10/93a368a4-c152-48d5-bba0-907107752d0d/3ecaed51-a684-4cb1-b81d-402ff0bf6724@3.jpg");
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  margin-top: -5px;
+  margin-left: 11px;
+}
+
+.icons {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+/* Bottom section */
+
+.bottom-hsection {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 20px;
+  color: #5f6368;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+}
+
+nav > span {
+  margin-right: 40px;
+}
+/* -------------- */
+
+/* Hover */
+.icons:hover {
+  background-color: rgba(221, 216, 216, 0.5);
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.pinged,
+nav > span:hover {
+  color: #3367d6;
+  display: inline-block;
+  padding-bottom: 7px;
+  border-bottom: 3px solid #3367d6;
+}
+/* ----- */
+/* ---------- */
+/* ------ */
