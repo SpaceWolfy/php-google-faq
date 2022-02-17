@@ -182,7 +182,12 @@
       foreach($db as $faq => $answer) {
         echo '<'. $answer['titleSize'] .'>' .$faq . '</'. $answer['titleSize'] .'>';
         foreach($answer['paragraphs'] as $p => $value) {
-          echo '<p>' . $value . '</p>';
+          if(strpos($value, "<ol>") !== false) //oppure (strpos($value, '<') === 0 && strpos($value, '>') === -1)
+          {
+            echo $value;
+          } else {
+            echo '<p>' . $value . '</p>';
+          }        
         }
       }
     ?>
